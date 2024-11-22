@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# leap
 
-## Getting Started
+leap is a port of choreo for use in first tech challenge.
 
-First, run the development server:
+> **note!** this project is currently in the very early stages of development, until a full release is made, please do not expect a highly functional version.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+feature list:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [ ] most current choreo features that translate over
+- [*] tauri setup
+- [*] nextjs setup
+- [ ] toasts
+- [ ] settings menu
+- [ ] implement mecanum dynamics model
+- [ ] implement modern robotics motor model
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+--
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+maybes?
 
-## Learn More
+- [ ] a library similar to choreolib for following paths in ftc robots, without the need to write your own implementation.
 
-To learn more about Next.js, take a look at the following resources:
+# credits
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+this project is currently being led by [@hivemindhq](https://github.com/hivemindhq) and [@FTC-SigmaCorns-22377](https://github.com/FTC-SigmaCorns-22377), it is an effort to create an open source port of the choreo frc path planning software to first tech challenge.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+we would like to extend our thank you to the following individuals and organizations that made this project possible:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [@SleipnirGroup](https://github.com/SleipnirGroup) the original creators of choreo, trajoptlib, and more.
+- [@Juice-Robotics](https://github.com/Juice-Robotics) for creating the SVG version of the into the deep field
