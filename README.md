@@ -7,8 +7,8 @@ leap is a port of choreo for use in first tech challenge.
 feature list:
 
 - [ ] most current choreo features that translate over
-- [*] tauri setup
-- [*] nextjs setup
+- [x] tauri setup
+- [x] nextjs setup
 - [ ] toasts
 - [ ] settings menu
 - [ ] implement mecanum dynamics model
