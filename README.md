@@ -2,7 +2,7 @@
 
 leap is a port of choreo for use in first tech challenge.
 
-> **note!** this project is currently in the very early stages of development, until a full release is made, please do not expect a highly functional version.
+> **note!** this project is currently in the very early stages of development, until a full release is made, please do not expect a highly functional version. the main goal is currently to create a functional proof of concept version on [null-robotics/choreo](https://github.com/Null-Robotics/choreo) so that we can begin a larger effort in the off-season.
 
 feature list:
 
